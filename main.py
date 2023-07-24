@@ -16,6 +16,6 @@ def input():
     if key == "escape":
         mouse.locked = not mouse.locked
         
-Floor = Entity(model="plane", collider="mesh", texture="white_cube",scale=(50,1,50),texture_scale=(50,50))
+Floor = Entity(model="plane", collider="mesh", texture="brown_cube",scale=(50,1,50),texture_scale=(51,49))
 Player = FirstPersonController()
 Game.run()
